@@ -10,7 +10,7 @@ const itemCard = props => {
 
   return (
     <div>
-      <Pic src={require('./Pics/2.jpg')} />
+      <Pic src={props.itemImg} alt="itemImg" />
       <button>Add to Wishlist</button>
       <button>Add to Cart</button>
     </div>

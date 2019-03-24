@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-
-import item from './items';
+import MainPage from './mainPage';
 
 class App extends Component {
   render() {
-    return <div className="App">{item()}</div>;
+    return (
+      <div className="App">
+        <MainPage />
+      </div>
+    );
   }
 }
 
